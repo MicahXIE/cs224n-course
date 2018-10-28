@@ -1,0 +1,43 @@
+1. NLP levels:
+
+Phonetic/Phonological Analysis(speech)		OCR/Tokenization(text)
+
+Morphological Analysis --> Syntactic analysis --> Semantic Interpretation --> Discourse Processing
+
+
+2. Deep Learning
+
+Numerical Optimization
+
+Representation learning attempts to automatically learn good features or representations
+
+Deep learning algorithms attempt to learn (multiple levels of) representation and an output
+
+
+3. Content
+
+key methods: RNN and attention etc.
+
+NLP chanlleges:
+(1) complexity in representing, learning and using
+	linguistic/situational/world/visual knowledge
+
+(2) Human languages are ambiguous(unlike programing 
+and other formal languages)
+
+(3) Human language interpretation depends on real 
+world, common sense, and contextual knowledge
+
+Piazza
+
+NLP tools:
+chendanqi(陈丹琦)
+
+Dialogue agents
+Google Inbox's program
+
+RNN: Recurrent Neural Networks
+
+
+
+
