@@ -1,0 +1,53 @@
+1. meaning of word
+
+Use a taxonomy like WordNet that has hypernyms (is-a) relationships and synonym sets
+
+2. Distributional Similarity
+the similarity between words
+
+you can get a lot of value by representing a word by means of its neighbours
+
+
+3. Word meaning defined in terms of vectors
+
+we defined a model that aims to predict between a center word Wt and context words in
+terms of word vectors
+	p(context|Wt) = ...
+
+	loss function:
+	J = 1 - p(w(-t)|w(t))
+
+w(-t) other words in the context
+
+4. word2vec
+Two algorithms
+1). Skip-grams (SG)
+   predict context words given target (position independent)
+
+2). Continuous Bag of Words (CBOW)
+   predict target word from bag-of-words context
+
+Two (moderately efficient) training methods
+1) Hierarchical softmax
+2) Negative sampling
+
+Details:
+For each word t = 1...T, predict surrounding words in a window of "radius" m of every word
+Objective function: Maximize the probability of any context word given the center word
+
+
+p(o|c) o(output word) c(central word)
+
+softmax : using word c to obtain probability of word o
+softmax function: standard map from Rv to a probability distribution
+
+each word has two vectors:
+v is the center word vectors and u are the context word vectors
+
+
+5. SkipGram
+
+refer to the pic SkipGram.JPEG
+
+
+
