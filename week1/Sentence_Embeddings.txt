@@ -1,0 +1,14 @@
+Word -> Sentence
+
+compute sentence similairtiy using the inner product
+use as features for sentence classification (e.g sentiment analysis)
+
+Bag-of-words (BOW)
+v("NLP") = 1/3(v("natural") + v("language") + v("processing"))
+Recurrent neural networks, recursive neural networks, convolutional neural networks
+
+Paper method (unsupervised):
+weighted Bag-of-words + remove some special direction
+
+Step 1: each word has a seperate weight
+Step 2: compute the first principal components (PCA)
